@@ -24,8 +24,9 @@ def main():
     for col, unique_count in get_unique_values(df).items():
         print(f"{col}: {unique_count} unique values")
 
-    print("\n=== AVERAGE SALARY PER DEPARTMENT ===")
+    print("\n=== AVERAGE SALARY PER DEPARTMENT *Satyam changed ...* ===")
     print(get_department_salary_stats(df))
 
 if __name__ == "__main__":
     main()
+
