@@ -1,4 +1,4 @@
-"""expense_manager.py - Input, validation, display and calculations."""
+"""expense_manager.py - Input, validation, display and calculations. code is updated on 14-10-2026"""
 
 import math
 from datetime import datetime
@@ -138,7 +138,7 @@ def view_summary():
         return
 
     grand_total, by_category = calculate_summary(expenses)
-    print("===== EXPENSE SUMMARY =====")
+    print("===== EXPENSE SUMMARY =======")
     print(f"Total Spent: {grand_total:.2f}")
     print(f"Number of Expenses: {len(expenses)}")
     print("\nSpending by Category:")
