@@ -1,7 +1,1 @@
-2025-07-01|Groceries|Weekly vegetables|150.00
-2025-07-02|Transport|Metro recharge|25.50
-2025-07-05|Utilities|Electricity bill|75.20
-2025-07-08|Food|Coffee|10.00
-2025-07-09|Food|Dinner|30.00
-2025-07-10|Shopping|A very long description that exceeds the column width|1234.57
-2025-07-11|Bills|Rent|99.00
+
