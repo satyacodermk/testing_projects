@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What keyword declares a constant in JavaScript?",
+    "options": ["var", "let", "const", "static"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which loop is best when you know how many times to repeat?",
+    "options": ["for", "while", "do...while", "switch"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What does typeof 42 return?",
+    "options": ["\"string\"", "\"number\"", "\"integer\"", "\"object\""],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which method converts a JavaScript object into a JSON string?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "Object.toJSON()"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the result of Number(\"abc\")?",
+    "options": ["0", "undefined", "NaN", "null"],
+    "correctAnswer": 2
+  }
+]

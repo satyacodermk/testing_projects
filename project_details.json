@@ -1,0 +1,85 @@
+{
+  "title": "Interactive Quiz & Learning App",
+  "type": "project",
+  "programming_language": "javascript",
+  "file_path": "/web_and_react_projects/projects/js_beginner_crash_course_proj_1_quiz",
+  "tech_stack_used": "javascript",
+  "primary_technology": "javascript",
+  "tech_stack": ["javascript", "nodejs"],
+  "allowed_extensions": [
+    ".js",
+    ".json",
+    ".md",
+    ".txt",
+    ".env",
+    ".ini",
+    ".cfg",
+    ".conf",
+    ".yaml",
+    ".yml",
+    ".toml",
+    ".log",
+    ".csv"
+  ],
+  "run_commands": ["node index.js"],
+  "entry_files": ["index.js"],
+  "points": 90,
+  "db_files": [],
+  "folder_structure": {
+    "main_folder_name": "interactive-quiz-app",
+    "files": [
+      {
+        "name": "index.js",
+        "file_summary": "The main program entry point that ties all modules together and controls the menu and restart loops",
+        "run": true,
+        "executable": true
+      }
+    ],
+    "sub_folders": [
+      {
+        "folder_name": "input",
+        "files": [
+          {
+            "name": "questions.json",
+            "file_summary": "JSON copy of the question bank loaded with JSON.parse"
+          }
+        ],
+        "sub_folders": []
+      },
+      {
+        "folder_name": "modules",
+        "files": [
+          {
+            "name": "questionData.js",
+            "file_summary": "Loads, validates, saves and shuffles the question bank"
+          },
+          {
+            "name": "menu.js",
+            "file_summary": "Welcome banner, rules and Start/Exit menu handled with switch"
+          },
+          {
+            "name": "inputValidation.js",
+            "file_summary": "Reusable askQuestion() input helper and input validators with while loops and try...catch"
+          },
+          {
+            "name": "quiz.js",
+            "file_summary": "Displays questions, checks answers and runs the quiz for loop"
+          },
+          {
+            "name": "score.js",
+            "file_summary": "Score counters, safe percentage calculation and performance message"
+          },
+          {
+            "name": "results.js",
+            "file_summary": "Displays the final results screen"
+          },
+          {
+            "name": "restart.js",
+            "file_summary": "Play-again prompt and goodbye message"
+          }
+        ],
+        "sub_folders": []
+      }
+    ]
+  }
+}
